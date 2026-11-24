@@ -1,0 +1,60 @@
+{
+ "written": "2026-11-16T07:11:29+00:00",
+ "reference": "P27348",
+ "reference_length": 245,
+ "quantity": "relative entropy of each column's weighted amino-acid frequencies against the background below, in nats, divided by -log(min background) so that it lands in 0 to 1",
+ "not_evcouplings": "computed here from the alignment described below. It is the same quantity as the conservation column of an EVcouplings frequencies file but not the same alignment, so values are not interchangeable with an EVcouplings run",
+ "alignment": {
+  "source": "UniProtKB",
+  "query": "(xref:pfam-PF00244)",
+  "url": "https://rest.uniprot.org/uniprotkb/stream?query=%28xref%3Apfam-PF00244%29&format=fasta&compressed=false",
+  "uniprot_release": "2026_04",
+  "uniprot_release_date": "04-November-2026",
+  "sequences_returned": 21696,
+  "after_length_filter_and_duplicates": 14130,
+  "length_filter": [
+   0.6,
+   1.4
+  ],
+  "aligner": "FAMSA via pyfamsa, UPGMA guide tree",
+  "columns_in_alignment": 6027,
+  "reference_columns": 245,
+  "minimum_sequence_coverage": 0.5,
+  "sequences_scored": 14090
+ },
+ "reweighting": {
+  "identity": 0.8,
+  "rule": "one over the number of sequences at or above that identity, gap against gap counted as a match",
+  "effective_depth": 1878.9089297696432,
+  "effective_depth_per_column": 7.6690160398760945
+ },
+ "background": {
+  "A": 0.0787,
+  "C": 0.0157,
+  "D": 0.0531,
+  "E": 0.0636,
+  "F": 0.0394,
+  "G": 0.0691,
+  "H": 0.0229,
+  "I": 0.0592,
+  "K": 0.0595,
+  "L": 0.0958,
+  "M": 0.0239,
+  "N": 0.0427,
+  "P": 0.0469,
+  "Q": 0.0395,
+  "R": 0.053,
+  "S": 0.0694,
+  "T": 0.0585,
+  "V": 0.0671,
+  "W": 0.0137,
+  "Y": 0.0323
+ },
+ "background_source": "Robinson and Robinson 1991",
+ "note": "relative entropy is measured against the background, so a column held at a rare residue scores above a column held just as firmly at a common one. The dynamics-aware pipeline's conservation column behaves the same way",
+ "coverage": {
+  "mean": 0.8797189675593212,
+  "min": 0.3650625749690923,
+  "min_at_position": 239
+ }
+}

@@ -1,0 +1,471 @@
+{
+ "uniprot": {
+  "YWHAQ": {
+   "acc": "P27348",
+   "seq": "MEKTELIQKAKLAEQAERYDDMATCMKAVTEQGAELSNEERNLLSVAYKNVVGGRRSAWRVISSIEQKTDTSDKKLQLIKDYREKVESELRSICTTVLELLDKYLIANATNPESKVFYLKMKGDYFRYLAEVACGDDRKQTIDNSQGAYQEAFDISKKEMQPTHPIRLGLALNFSVFYYEILNNPELACTLAKTAFDEAIAELDTLNEDSYKDSTLIMQLLRDNLTLWTSDSAGEECDAAEGAEN",
+   "helix": [
+    [
+     3,
+     16
+    ],
+    [
+     19,
+     31
+    ],
+    [
+     34,
+     37
+    ],
+    [
+     38,
+     68
+    ],
+    [
+     76,
+     100
+    ],
+    [
+     101,
+     105
+    ],
+    [
+     112,
+     132
+    ],
+    [
+     136,
+     159
+    ],
+    [
+     165,
+     176
+    ],
+    [
+     177,
+     181
+    ],
+    [
+     185,
+     200
+    ],
+    [
+     203,
+     205
+    ],
+    [
+     208,
+     228
+    ]
+   ],
+   "strand": [],
+   "transmem": [],
+   "mature": [
+    1,
+    245
+   ],
+   "signal": []
+  },
+  "YWHAB": {
+   "acc": "P31946",
+   "seq": "MTMDKSELVQKAKLAEQAERYDDMAAAMKAVTEQGHELSNEERNLLSVAYKNVVGARRSSWRVISSIEQKTERNEKKQQMGKEYREKIEAELQDICNDVLELLDKYLIPNATQPESKVFYLKMKGDYFRYLSEVASGDNKQTTVSNSQQAYQEAFEISKKEMQPTHPIRLGLALNFSVFYYEILNSPEKACSLAKTAFDEAIAELDTLNEESYKDSTLIMQLLRDNLTLWTSENQGDEGDAGEGEN",
+   "helix": [
+    [
+     5,
+     17
+    ],
+    [
+     21,
+     32
+    ],
+    [
+     36,
+     39
+    ],
+    [
+     40,
+     70
+    ],
+    [
+     76,
+     102
+    ],
+    [
+     103,
+     107
+    ],
+    [
+     114,
+     134
+    ],
+    [
+     138,
+     161
+    ],
+    [
+     167,
+     182
+    ],
+    [
+     187,
+     202
+    ],
+    [
+     205,
+     207
+    ],
+    [
+     214,
+     231
+    ]
+   ],
+   "strand": [],
+   "transmem": [],
+   "mature": [
+    1,
+    246
+   ],
+   "signal": []
+  },
+  "YWHAG": {
+   "acc": "P61981",
+   "seq": "MVDREQLVQKARLAEQAERYDDMAAAMKNVTELNEPLSNEERNLLSVAYKNVVGARRSSWRVISSIEQKTSADGNEKKIEMVRAYREKIEKELEAVCQDVLSLLDNYLIKNCSETQYESKVFYLKMKGDYYRYLAEVATGEKRATVVESSEKAYSEAHEISKEHMQPTHPIRLGLALNYSVFYYEIQNAPEQACHLAKTAFDDAIAELDTLNEDSYKDSTLIMQLLRDNLTLWTSDQQDDDGGEGNN",
+   "helix": [
+    [
+     4,
+     16
+    ],
+    [
+     20,
+     31
+    ],
+    [
+     35,
+     38
+    ],
+    [
+     39,
+     69
+    ],
+    [
+     71,
+     73
+    ],
+    [
+     77,
+     103
+    ],
+    [
+     104,
+     108
+    ],
+    [
+     117,
+     137
+    ],
+    [
+     140,
+     164
+    ],
+    [
+     170,
+     181
+    ],
+    [
+     182,
+     186
+    ],
+    [
+     190,
+     206
+    ],
+    [
+     208,
+     210
+    ],
+    [
+     216,
+     233
+    ],
+    [
+     237,
+     240
+    ]
+   ],
+   "strand": [],
+   "transmem": [],
+   "mature": [
+    1,
+    247
+   ],
+   "signal": []
+  },
+  "YWHAH": {
+   "acc": "Q04917",
+   "seq": "MGDREQLLQRARLAEQAERYDDMASAMKAVTELNEPLSNEDRNLLSVAYKNVVGARRSSWRVISSIEQKTMADGNEKKLEKVKAYREKIEKELETVCNDVLSLLDKFLIKNCNDFQYESKVFYLKMKGDYYRYLAEVASGEKKNSVVEASEAAYKEAFEISKEQMQPTHPIRLGLALNFSVFYYEIQNAPEQACLLAKQAFDDAIAELDTLNEDSYKDSTLIMQLLRDNLTLWTSDQQDEEAGEGN",
+   "helix": [
+    [
+     4,
+     16
+    ],
+    [
+     20,
+     31
+    ],
+    [
+     39,
+     73
+    ],
+    [
+     76,
+     103
+    ],
+    [
+     104,
+     108
+    ],
+    [
+     117,
+     137
+    ],
+    [
+     140,
+     164
+    ],
+    [
+     170,
+     181
+    ],
+    [
+     182,
+     186
+    ],
+    [
+     190,
+     206
+    ],
+    [
+     208,
+     210
+    ],
+    [
+     216,
+     234
+    ]
+   ],
+   "strand": [],
+   "transmem": [],
+   "mature": [
+    2,
+    246
+   ],
+   "signal": []
+  },
+  "YWHAZ": {
+   "acc": "P63104",
+   "seq": "MDKNELVQKAKLAEQAERYDDMAACMKSVTEQGAELSNEERNLLSVAYKNVVGARRSSWRVVSSIEQKTEGAEKKQQMAREYREKIETELRDICNDVLSLLEKFLIPNASQAESKVFYLKMKGDYYRYLAEVAAGDDKKGIVDQSQQAYQEAFEISKKEMQPTHPIRLGLALNFSVFYYEILNSPEKACSLAKTAFDEAIAELDTLSEESYKDSTLIMQLLRDNLTLWTSDTQGDEAEAGEGGEN",
+   "helix": [
+    [
+     3,
+     15
+    ],
+    [
+     19,
+     31
+    ],
+    [
+     34,
+     37
+    ],
+    [
+     38,
+     67
+    ],
+    [
+     76,
+     100
+    ],
+    [
+     101,
+     105
+    ],
+    [
+     112,
+     131
+    ],
+    [
+     135,
+     159
+    ],
+    [
+     165,
+     176
+    ],
+    [
+     177,
+     181
+    ],
+    [
+     185,
+     200
+    ],
+    [
+     203,
+     205
+    ],
+    [
+     211,
+     228
+    ]
+   ],
+   "strand": [],
+   "transmem": [],
+   "mature": [
+    1,
+    245
+   ],
+   "signal": []
+  },
+  "SFN": {
+   "acc": "P31947",
+   "seq": "MERASLIQKAKLAEQAERYEDMAAFMKGAVEKGEELSCEERNLLSVAYKNVVGGQRAAWRVLSSIEQKSNEEGSEEKGPEVREYREKVETELQGVCDTVLGLLDSHLIKEAGDAESRVFYLKMKGDYYRYLAEVATGDDKKRIIDSARSAYQEAMDISKKEMPPTNPIRLGLALNFSVFHYEIANSPEEAISLAKTTFDEAMADLHTLSEDSYKDSTLIMQLLRDNLTLWTADNAGEEGGEAPQEPQS",
+   "helix": [
+    [
+     3,
+     15
+    ],
+    [
+     19,
+     31
+    ],
+    [
+     34,
+     37
+    ],
+    [
+     38,
+     69
+    ],
+    [
+     80,
+     102
+    ],
+    [
+     103,
+     107
+    ],
+    [
+     114,
+     134
+    ],
+    [
+     137,
+     139
+    ],
+    [
+     140,
+     161
+    ],
+    [
+     167,
+     178
+    ],
+    [
+     179,
+     183
+    ],
+    [
+     187,
+     204
+    ],
+    [
+     205,
+     207
+    ],
+    [
+     210,
+     230
+    ]
+   ],
+   "strand": [
+    [
+     71,
+     73
+    ]
+   ],
+   "transmem": [],
+   "mature": [
+    1,
+    248
+   ],
+   "signal": []
+  },
+  "YWHAE": {
+   "acc": "P62258",
+   "seq": "MDDREDLVYQAKLAEQAERYDEMVESMKKVAGMDVELTVEERNLLSVAYKNVIGARRASWRIISSIEQKEENKGGEDKLKMIREYRQMVETELKLICCDILDVLDKHLIPAANTGESKVFYYKMKGDYHRYLAEFATGNDRKEAAENSLVAYKAASDIAMTELPPTHPIRLGLALNFSVFYYEILNSPDRACRLAKAAFDDAIAELDTLSEESYKDSTLIMQLLRDNLTLWTSDMQGDGEEQNKEALQDVEDENQ",
+   "helix": [
+    [
+     4,
+     17
+    ],
+    [
+     20,
+     31
+    ],
+    [
+     39,
+     73
+    ],
+    [
+     76,
+     103
+    ],
+    [
+     104,
+     108
+    ],
+    [
+     115,
+     135
+    ],
+    [
+     138,
+     162
+    ],
+    [
+     168,
+     179
+    ],
+    [
+     180,
+     184
+    ],
+    [
+     188,
+     204
+    ],
+    [
+     206,
+     208
+    ],
+    [
+     214,
+     231
+    ]
+   ],
+   "strand": [
+    [
+     33,
+     35
+    ]
+   ],
+   "transmem": [],
+   "mature": [
+    1,
+    255
+   ],
+   "signal": []
+  }
+ },
+ "provenance": "rest.uniprot.org/uniprotkb, fields accession,sequence,ft_helix,ft_strand,ft_transmem,ft_chain,ft_signal",
+ "retrieved": "2026-11-10"
+}

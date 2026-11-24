@@ -1,0 +1,345 @@
+{
+ "summary": {
+  "lead": "YWHAQ",
+  "accession": "P27348",
+  "structure": "5IQP",
+  "converted_positions": 30,
+  "converted_in_measured_interface": [
+   8,
+   15,
+   82
+  ],
+  "literature_positions_examined": 19,
+  "converted_interface_positions_also_reported_in_the_literature": [
+   82
+  ],
+  "converted_interface_positions_not_reported": [
+   8,
+   15
+  ],
+  "ser58": {
+   "residue_in_YWHAQ": "A",
+   "residue_in_YWHAZ": "S",
+   "in_measured_interface": true,
+   "note": "the phospho-switch that monomerises 14-3-3 zeta is a serine at 58; the lead paralogue carries alanine there, so it has no such switch"
+  }
+ },
+ "positions": [
+  {
+   "position": 5,
+   "numbering": "YWHAZ",
+   "reported": "one of three segments mutated in the monomerising constructs",
+   "references": [
+    "sluchanko2011"
+   ],
+   "residue_in_numbering_paralogue": "E",
+   "mapping": "by equal sequence length, 245 residues in both YWHAZ and YWHAQ, so the position index is the same in each",
+   "residue_in_YWHAQ": "E",
+   "same_residue_in_both": true,
+   "convertible_by_the_rule": false,
+   "converted_to": null,
+   "in_converted_set": false,
+   "in_measured_interface": true,
+   "buried_A2": 35.8,
+   "min_distance_to_partner_A": 3.67,
+   "measured_polar_contacts": null
+  },
+  {
+   "position": 12,
+   "numbering": "YWHAZ",
+   "reported": "in the 12LAE14 segment, mutated in every monomerising construct",
+   "references": [
+    "sluchanko2011",
+    "sluchanko_uversky2015"
+   ],
+   "residue_in_numbering_paralogue": "L",
+   "mapping": "by equal sequence length, 245 residues in both YWHAZ and YWHAQ, so the position index is the same in each",
+   "residue_in_YWHAQ": "L",
+   "same_residue_in_both": true,
+   "convertible_by_the_rule": false,
+   "converted_to": null,
+   "in_converted_set": false,
+   "in_measured_interface": true,
+   "buried_A2": 101.07,
+   "min_distance_to_partner_A": 3.78,
+   "measured_polar_contacts": null
+  },
+  {
+   "position": 13,
+   "numbering": "YWHAZ",
+   "reported": "in the 12LAE14 segment, mutated in every monomerising construct",
+   "references": [
+    "sluchanko2011",
+    "sluchanko_uversky2015"
+   ],
+   "residue_in_numbering_paralogue": "A",
+   "mapping": "by equal sequence length, 245 residues in both YWHAZ and YWHAQ, so the position index is the same in each",
+   "residue_in_YWHAQ": "A",
+   "same_residue_in_both": true,
+   "convertible_by_the_rule": false,
+   "converted_to": null,
+   "in_converted_set": false,
+   "in_measured_interface": true,
+   "buried_A2": 10.48,
+   "min_distance_to_partner_A": 3.4,
+   "measured_polar_contacts": null
+  },
+  {
+   "position": 14,
+   "numbering": "YWHAZ",
+   "reported": "in the 12LAE14 segment, mutated in every monomerising construct",
+   "references": [
+    "sluchanko2011",
+    "sluchanko_uversky2015"
+   ],
+   "residue_in_numbering_paralogue": "E",
+   "mapping": "by equal sequence length, 245 residues in both YWHAZ and YWHAQ, so the position index is the same in each",
+   "residue_in_YWHAQ": "E",
+   "same_residue_in_both": true,
+   "convertible_by_the_rule": false,
+   "converted_to": null,
+   "in_converted_set": false,
+   "in_measured_interface": false,
+   "buried_A2": 0.0,
+   "min_distance_to_partner_A": 6.11,
+   "measured_polar_contacts": null
+  },
+  {
+   "position": 21,
+   "numbering": "YWHAZ",
+   "reported": "salt-bridge residue; D21N promotes N-terminal disorder and raises chaperone activity",
+   "references": [
+    "woodcock2017"
+   ],
+   "residue_in_numbering_paralogue": "D",
+   "mapping": "by equal sequence length, 245 residues in both YWHAZ and YWHAQ, so the position index is the same in each",
+   "residue_in_YWHAQ": "D",
+   "same_residue_in_both": true,
+   "convertible_by_the_rule": false,
+   "converted_to": null,
+   "in_converted_set": false,
+   "in_measured_interface": true,
+   "buried_A2": 15.3,
+   "min_distance_to_partner_A": 3.08,
+   "measured_polar_contacts": null
+  },
+  {
+   "position": 58,
+   "numbering": "YWHAZ",
+   "reported": "phosphorylation here monomerises the protein and raises the dimer Kd by six orders of magnitude",
+   "references": [
+    "woodcock2003",
+    "trosanova2022",
+    "kozelekova2022"
+   ],
+   "residue_in_numbering_paralogue": "S",
+   "mapping": "by equal sequence length, 245 residues in both YWHAZ and YWHAQ, so the position index is the same in each",
+   "residue_in_YWHAQ": "A",
+   "same_residue_in_both": false,
+   "convertible_by_the_rule": false,
+   "converted_to": null,
+   "in_converted_set": false,
+   "in_measured_interface": true,
+   "buried_A2": 34.16,
+   "min_distance_to_partner_A": 3.69,
+   "measured_polar_contacts": null
+  },
+  {
+   "position": 82,
+   "numbering": "YWHAZ",
+   "reported": "first residue of the 82YREKIE87 segment; constructs that mutated this segment were insoluble",
+   "references": [
+    "sluchanko2011"
+   ],
+   "residue_in_numbering_paralogue": "Y",
+   "mapping": "by equal sequence length, 245 residues in both YWHAZ and YWHAQ, so the position index is the same in each",
+   "residue_in_YWHAQ": "Y",
+   "same_residue_in_both": true,
+   "convertible_by_the_rule": true,
+   "converted_to": "F",
+   "in_converted_set": true,
+   "in_measured_interface": true,
+   "buried_A2": 129.86,
+   "min_distance_to_partner_A": 2.94,
+   "measured_polar_contacts": [
+    {
+     "atom": "OH",
+     "partner": "ARG18",
+     "partner_atom": "NE",
+     "distance": 2.94
+    },
+    {
+     "atom": "OH",
+     "partner": "ASP21",
+     "partner_atom": "OD2",
+     "distance": 2.96
+    }
+   ]
+  },
+  {
+   "position": 83,
+   "numbering": "YWHAZ",
+   "reported": "in the 82YREKIE87 segment",
+   "references": [
+    "sluchanko2011"
+   ],
+   "residue_in_numbering_paralogue": "R",
+   "mapping": "by equal sequence length, 245 residues in both YWHAZ and YWHAQ, so the position index is the same in each",
+   "residue_in_YWHAQ": "R",
+   "same_residue_in_both": true,
+   "convertible_by_the_rule": false,
+   "converted_to": null,
+   "in_converted_set": false,
+   "in_measured_interface": false,
+   "buried_A2": 0.0,
+   "min_distance_to_partner_A": 6.81,
+   "measured_polar_contacts": null
+  },
+  {
+   "position": 84,
+   "numbering": "YWHAZ",
+   "reported": "in the 82YREKIE87 segment",
+   "references": [
+    "sluchanko2011"
+   ],
+   "residue_in_numbering_paralogue": "E",
+   "mapping": "by equal sequence length, 245 residues in both YWHAZ and YWHAQ, so the position index is the same in each",
+   "residue_in_YWHAQ": "E",
+   "same_residue_in_both": true,
+   "convertible_by_the_rule": false,
+   "converted_to": null,
+   "in_converted_set": false,
+   "in_measured_interface": false,
+   "buried_A2": 0.0,
+   "min_distance_to_partner_A": 8.46,
+   "measured_polar_contacts": null
+  },
+  {
+   "position": 85,
+   "numbering": "YWHAZ",
+   "reported": "in the 82YREKIE87 segment",
+   "references": [
+    "sluchanko2011"
+   ],
+   "residue_in_numbering_paralogue": "K",
+   "mapping": "by equal sequence length, 245 residues in both YWHAZ and YWHAQ, so the position index is the same in each",
+   "residue_in_YWHAQ": "K",
+   "same_residue_in_both": true,
+   "convertible_by_the_rule": false,
+   "converted_to": null,
+   "in_converted_set": false,
+   "in_measured_interface": true,
+   "buried_A2": 3.77,
+   "min_distance_to_partner_A": 4.69,
+   "measured_polar_contacts": null
+  },
+  {
+   "position": 86,
+   "numbering": "YWHAZ",
+   "reported": "in the 82YREKIE87 segment",
+   "references": [
+    "sluchanko2011"
+   ],
+   "residue_in_numbering_paralogue": "I",
+   "mapping": "by equal sequence length, 245 residues in both YWHAZ and YWHAQ, so the position index is the same in each",
+   "residue_in_YWHAQ": "V",
+   "same_residue_in_both": false,
+   "convertible_by_the_rule": false,
+   "converted_to": null,
+   "in_converted_set": false,
+   "in_measured_interface": true,
+   "buried_A2": 12.71,
+   "min_distance_to_partner_A": 3.88,
+   "measured_polar_contacts": null
+  },
+  {
+   "position": 87,
+   "numbering": "YWHAZ",
+   "reported": "in the 82YREKIE87 segment",
+   "references": [
+    "sluchanko2011"
+   ],
+   "residue_in_numbering_paralogue": "E",
+   "mapping": "by equal sequence length, 245 residues in both YWHAZ and YWHAQ, so the position index is the same in each",
+   "residue_in_YWHAQ": "E",
+   "same_residue_in_both": true,
+   "convertible_by_the_rule": false,
+   "converted_to": null,
+   "in_converted_set": false,
+   "in_measured_interface": false,
+   "buried_A2": 0.0,
+   "min_distance_to_partner_A": 7.27,
+   "measured_polar_contacts": null
+  },
+  {
+   "position": 5,
+   "numbering": "SFN",
+   "reported": "candidate and confirmed determinant of selective sigma homodimerisation",
+   "references": [
+    "verdoodt2006"
+   ],
+   "residue_in_numbering_paralogue": "S",
+   "mapping": "not claimed: SFN is 248 residues against 245 for YWHAQ, so no position correspondence is asserted without an alignment"
+  },
+  {
+   "position": 20,
+   "numbering": "SFN",
+   "reported": "candidate and confirmed determinant of selective sigma homodimerisation",
+   "references": [
+    "verdoodt2006"
+   ],
+   "residue_in_numbering_paralogue": "E",
+   "mapping": "not claimed: SFN is 248 residues against 245 for YWHAQ, so no position correspondence is asserted without an alignment"
+  },
+  {
+   "position": 25,
+   "numbering": "SFN",
+   "reported": "candidate determinant of sigma dimerisation specificity",
+   "references": [
+    "verdoodt2006"
+   ],
+   "residue_in_numbering_paralogue": "F",
+   "mapping": "not claimed: SFN is 248 residues against 245 for YWHAQ, so no position correspondence is asserted without an alignment"
+  },
+  {
+   "position": 55,
+   "numbering": "SFN",
+   "reported": "candidate determinant of sigma dimerisation specificity",
+   "references": [
+    "verdoodt2006"
+   ],
+   "residue_in_numbering_paralogue": "Q",
+   "mapping": "not claimed: SFN is 248 residues against 245 for YWHAQ, so no position correspondence is asserted without an alignment"
+  },
+  {
+   "position": 80,
+   "numbering": "SFN",
+   "reported": "candidate and confirmed determinant of selective sigma homodimerisation",
+   "references": [
+    "verdoodt2006"
+   ],
+   "residue_in_numbering_paralogue": "E",
+   "mapping": "not claimed: SFN is 248 residues against 245 for YWHAQ, so no position correspondence is asserted without an alignment"
+  },
+  {
+   "position": 158,
+   "numbering": "YWHAG",
+   "reported": "gamma-specific histidine pivotal for ligand-induced membrane binding",
+   "references": [
+    "bustad2012"
+   ],
+   "residue_in_numbering_paralogue": "H",
+   "mapping": "not claimed: YWHAG is 247 residues against 245 for YWHAQ, so no position correspondence is asserted without an alignment"
+  },
+  {
+   "position": 195,
+   "numbering": "YWHAG",
+   "reported": "gamma-specific histidine pivotal for ligand-induced membrane binding",
+   "references": [
+    "bustad2012"
+   ],
+   "residue_in_numbering_paralogue": "H",
+   "mapping": "not claimed: YWHAG is 247 residues against 245 for YWHAQ, so no position correspondence is asserted without an alignment"
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+  "verdict": "HOLDS",
+  "reason": "the converted dimer keeps 1.00 of the native interface over the window and 0.97 over its last tenth, at or above the declared 0.50",
+  "thresholds": {
+    "hold": 0.5,
+    "stop": 0.25,
+    "separated_A": 5.0,
+    "tail_fraction": 0.1,
+    "burn_fraction": 0.19990004997501248,
+    "min_ns_for_hold": 100.0
+  },
+  "one_sided": false,
+  "ns": {
+    "native": 100.0,
+    "converted": 100.0
+  },
+  "frames": {
+    "native": 2001,
+    "converted": 2001
+  },
+  "interface": {
+    "buried": {
+      "native": 1074.224047470331,
+      "converted": 1076.258088694566,
+      "fraction": 1.0018934981292076,
+      "native_tail": 1087.93875,
+      "converted_tail": 1080.7868750000002,
+      "fraction_tail": 0.9934262154004536
+    },
+    "contacts": {
+      "native": 2668.1855090568397,
+      "converted": 2707.564022485946,
+      "fraction": 1.0147585365768013,
+      "native_tail": 2744.23125,
+      "converted_tail": 2661.225,
+      "fraction_tail": 0.9697524579971167
+    }
+  },
+  "converted_mindist_tail_A": 1.6243033437500003,
+  "per_position_mindist": {
+    "15_sub1": {
+      "native_A": 2.494478368519675,
+      "converted_A": 2.3172122367270456,
+      "change_A": -0.17726613179262962
+    },
+    "15_sub2": {
+      "native_A": 2.4580003572767017,
+      "converted_A": 2.3607695109306683,
+      "change_A": -0.0972308463460334
+    },
+    "82_sub1": {
+      "native_A": 1.8129539725171768,
+      "converted_A": 2.215734578388507,
+      "change_A": 0.40278060587133035
+    },
+    "82_sub2": {
+      "native_A": 1.8126296271080573,
+      "converted_A": 2.1885848750780763,
+      "change_A": 0.375955247970019
+    },
+    "8_sub1": {
+      "native_A": 2.2810000961898815,
+      "converted_A": 2.209107276077452,
+      "change_A": -0.07189282011242959
+    },
+    "8_sub2": {
+      "native_A": 2.35490732792005,
+      "converted_A": 2.2155294809494066,
+      "change_A": -0.13937784697064348
+    }
+  },
+  "rmsd_A": {
+    "native": {
+      "mean": 5.041212370393504,
+      "sd": 0.7180827894613079,
+      "p10": 4.093681,
+      "p90": 5.967175999999999,
+      "first": 5.721368,
+      "last": 5.255427
+    },
+    "converted": {
+      "mean": 6.089861086820736,
+      "sd": 1.4431776833991323,
+      "p10": 4.418288,
+      "p90": 8.21506,
+      "first": 4.005162,
+      "last": 7.210746
+    }
+  },
+  "native_polar_pairs": {
+    "A8NE2 to LYS75 O": {
+      "mean": 7.867451592754529,
+      "sd": 1.3587671696884402,
+      "occupancy_3_5": 0.0
+    },
+    "B8NE2 to LYS75 O": {
+      "mean": 7.530237351655216,
+      "sd": 1.5293392836372786,
+      "occupancy_3_5": 0.006870705808869456
+    },
+    "A82OH to ARG18 NE": {
+      "mean": 3.47261086820737,
+      "sd": 0.2516470250490719,
+      "occupancy_3_5": 0.5765146783260462
+    },
+    "B82OH to ARG18 NE": {
+      "mean": 3.454003747657714,
+      "sd": 0.25050035622360634,
+      "occupancy_3_5": 0.6058713304184884
+    },
+    "A82OH to ASP21 OD2": {
+      "mean": 2.732804497189256,
+      "sd": 0.1491585974735029,
+      "occupancy_3_5": 0.9975015615240475
+    },
+    "B82OH to ASP21 OD2": {
+      "mean": 2.73103685196752,
+      "sd": 0.15613595915897985,
+      "occupancy_3_5": 0.9962523422860712
+    }
+  },
+  "converted_polar_pairs": {},
+  "written": "2026-11-16T04:55:26"
+}

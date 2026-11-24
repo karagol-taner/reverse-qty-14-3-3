@@ -1,0 +1,37 @@
+CHARMM-GUI settings for the reverse-QTY series C dimer test
+==========================================================
+Input Generator > Solution Builder > Upload PDB. Run it twice, once per file.
+
+  5IQP_dimer_native.pdb
+  5IQP_dimer_converted.pdb
+
+Chains            keep both, A,B. The interface between them is what this measures.
+Disulfides        none. 5IQP has 8 cysteines across the two chains and no pair is
+                  within 2.5 angstrom, so nothing is to be ticked here. If
+                  CHARMM-GUI offers one, something is wrong with the upload.
+Missing residues  chain B is missing S72, 7.35 angstrom from the partner subunit, so let CHARMM-GUI model it
+Terminal groups   standard charged termini, NTER and CTER. The chain ends here are the
+                  real ends of the protein, not a cut through the middle of one.
+Protonation       defaults, standard protonation at pH 7. The two builds must differ
+                  in nothing but the 30 substitutions.
+Water box         rectangular, 12 angstrom edge distance.
+Ions              KCl 0.15 M, neutralising. The two builds carry the same net charge,
+                  since every substitution here is neutral to neutral, so the ion
+                  counts should match; if they do not, check the upload.
+Force field       CHARMM36m.
+Dynamics          GROMACS. Temperature 303.15 K, the value the APOE reverse-QTY
+                  paper ran at, so the two series are comparable. It is also
+                  CHARMM-GUI's own default, so this field can be left as it is.
+
+Unpack each charmm-gui-*.tgz and put the gromacs/ folder on Drive as
+
+  /content/drive/MyDrive/14-3-3-rQTY/md/native/gromacs
+  /content/drive/MyDrive/14-3-3-rQTY/md/converted/gromacs
+
+Then open the two part 2 notebooks and press Runtime > Run all on each. They are
+independent and can run at the same time.
+
+The question these two runs answer: the conversion changes 30 positions of this
+subunit, of which the ones inside the dimer interface are the risk, so the native and
+the converted dimer are run in water under the same conditions and the interface is
+compared. Nothing downstream is built until that comparison returns.

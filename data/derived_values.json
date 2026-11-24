@@ -1,0 +1,1706 @@
+{
+ "design": {
+  "paralogues": 7,
+  "rows": [
+   {
+    "gene": "YWHAQ",
+    "acc": "P27348",
+    "length": 245,
+    "helix_pct": 79.18367346938776,
+    "qty": 37,
+    "conv_n": 30,
+    "conv_pct": 12.244897959183673,
+    "gravy_native": -0.5118367346938776,
+    "gravy_conv": 0.13061224489795917
+   },
+   {
+    "gene": "YWHAB",
+    "acc": "P31946",
+    "length": 246,
+    "helix_pct": 77.23577235772358,
+    "qty": 38,
+    "conv_n": 29,
+    "conv_pct": 11.788617886178862,
+    "gravy_native": -0.7292682926829268,
+    "gravy_conv": -0.07682926829268295
+   },
+   {
+    "gene": "YWHAG",
+    "acc": "P61981",
+    "length": 247,
+    "helix_pct": 80.97165991902834,
+    "qty": 37,
+    "conv_n": 29,
+    "conv_pct": 11.740890688259109,
+    "gravy_native": -0.680161943319838,
+    "gravy_conv": -0.06275303643724699
+   },
+   {
+    "gene": "YWHAH",
+    "acc": "Q04917",
+    "length": 246,
+    "helix_pct": 79.26829268292683,
+    "qty": 33,
+    "conv_n": 27,
+    "conv_pct": 10.975609756097562,
+    "gravy_native": -0.6182926829268293,
+    "gravy_conv": -0.04146341463414636
+   },
+   {
+    "gene": "YWHAZ",
+    "acc": "P63104",
+    "length": 245,
+    "helix_pct": 77.14285714285714,
+    "qty": 35,
+    "conv_n": 27,
+    "conv_pct": 11.020408163265307,
+    "gravy_native": -0.6208163265306123,
+    "gravy_conv": -0.018775510204081653
+   },
+   {
+    "gene": "SFN",
+    "acc": "P31947",
+    "length": 248,
+    "helix_pct": 78.62903225806451,
+    "qty": 29,
+    "conv_n": 24,
+    "conv_pct": 9.67741935483871,
+    "gravy_native": -0.5987903225806451,
+    "gravy_conv": -0.08911290322580648
+   },
+   {
+    "gene": "YWHAE",
+    "acc": "P62258",
+    "length": 255,
+    "helix_pct": 76.47058823529412,
+    "qty": 31,
+    "conv_n": 22,
+    "conv_pct": 8.627450980392156,
+    "gravy_native": -0.54,
+    "gravy_conv": -0.107843137254902
+   }
+  ],
+  "length_range": "245 to 255",
+  "helix_range": "76.5 to 81.0",
+  "conv_n_range": "22 to 30",
+  "conv_pct_range": "8.6 to 12.2",
+  "beta_note": "essentially no beta content in any deposited structure",
+  "crosses_zero": [
+   "YWHAQ"
+  ],
+  "lead": "YWHAQ",
+  "lead_acc": "P27348",
+  "lead_conv_n": 30,
+  "lead_conv_pct": 12.244897959183673,
+  "lead_qty": 37,
+  "lead_length": 245,
+  "lead_gravy_native": -0.5118367346938776,
+  "lead_gravy_conv": 0.13061224489795917,
+  "lead_positions": [
+   4,
+   8,
+   15,
+   19,
+   24,
+   30,
+   48,
+   67,
+   77,
+   82,
+   95,
+   96,
+   104,
+   118,
+   125,
+   128,
+   140,
+   141,
+   146,
+   149,
+   150,
+   178,
+   179,
+   190,
+   194,
+   205,
+   211,
+   215,
+   219,
+   226
+  ],
+  "lead_unconverted": 7,
+  "lead_iface_names": [
+   "Gln8",
+   "Gln15",
+   "Tyr82"
+  ],
+  "lead_by_class": {
+   "T": 11,
+   "Q": 8,
+   "Y": 11
+  },
+  "lead_class_sentence": "8 glutamine to leucine, 11 threonine to valine, 11 tyrosine to phenylalanine"
+ },
+ "interface": {
+  "rows": [
+   {
+    "pdb": "2BQ0",
+    "gene": "YWHAB",
+    "resolution": 2.5,
+    "first": 3,
+    "last": 232,
+    "observed": 230,
+    "helix_pct": 81.30434782608695,
+    "beta_pct": 0.0,
+    "buried": 1022.3882969617844,
+    "n_iface": 27,
+    "conv_in_iface": [
+     10,
+     17,
+     84
+    ],
+    "area_on_conv": 193.2565140724182,
+    "share_pct": 18.90245757377267,
+    "polar": {
+     "10": [],
+     "17": [],
+     "84": [
+      {
+       "atom": "OH",
+       "partner": "ASP23",
+       "partner_atom": "OD2",
+       "distance": 2.66
+      },
+      {
+       "atom": "OH",
+       "partner": "ARG20",
+       "partner_atom": "NE",
+       "distance": 3.09
+      }
+     ]
+    }
+   },
+   {
+    "pdb": "8EQ8",
+    "gene": "YWHAB",
+    "resolution": 1.5,
+    "first": 3,
+    "last": 232,
+    "observed": 230,
+    "helix_pct": 83.04347826086956,
+    "beta_pct": 0.0,
+    "buried": 1030.8286437988281,
+    "n_iface": 27,
+    "conv_in_iface": [
+     10,
+     17,
+     84
+    ],
+    "area_on_conv": 198.0901756286621,
+    "share_pct": 19.216595970660716,
+    "polar": {
+     "10": [],
+     "17": [],
+     "84": [
+      {
+       "atom": "OH",
+       "partner": "ASP23",
+       "partner_atom": "OD2",
+       "distance": 2.67
+      },
+      {
+       "atom": "OH",
+       "partner": "ARG20",
+       "partner_atom": "NE",
+       "distance": 3.05
+      }
+     ]
+    }
+   },
+   {
+    "pdb": "5IQP",
+    "gene": "YWHAQ",
+    "resolution": 2.602,
+    "first": 1,
+    "last": 230,
+    "observed": 230,
+    "helix_pct": 81.73913043478261,
+    "beta_pct": 0.0,
+    "buried": 969.8695574104786,
+    "n_iface": 27,
+    "conv_in_iface": [
+     8,
+     15,
+     82
+    ],
+    "area_on_conv": 239.7089958190918,
+    "share_pct": 24.715591286224853,
+    "polar": {
+     "8": [
+      {
+       "atom": "NE2",
+       "partner": "LYS75",
+       "partner_atom": "O",
+       "distance": 2.64
+      }
+     ],
+     "15": [],
+     "82": [
+      {
+       "atom": "OH",
+       "partner": "ARG18",
+       "partner_atom": "NE",
+       "distance": 2.94
+      },
+      {
+       "atom": "OH",
+       "partner": "ASP21",
+       "partner_atom": "OD2",
+       "distance": 2.96
+      }
+     ]
+    }
+   },
+   {
+    "pdb": "6F08",
+    "gene": "YWHAZ",
+    "resolution": 1.9,
+    "first": 1,
+    "last": 230,
+    "observed": 225,
+    "helix_pct": 80.44444444444444,
+    "beta_pct": 0.0,
+    "buried": 771.5598331987858,
+    "n_iface": 22,
+    "conv_in_iface": [
+     8,
+     15,
+     82
+    ],
+    "area_on_conv": 194.20647621154785,
+    "share_pct": 25.170630695793648,
+    "polar": {
+     "8": [],
+     "15": [],
+     "82": [
+      {
+       "atom": "OH",
+       "partner": "ASP21",
+       "partner_atom": "OD2",
+       "distance": 2.7
+      },
+      {
+       "atom": "OH",
+       "partner": "ARG18",
+       "partner_atom": "NE",
+       "distance": 3.19
+      }
+     ]
+    }
+   }
+  ],
+  "structures": 4,
+  "genes": [
+   "YWHAB",
+   "YWHAQ",
+   "YWHAZ"
+  ],
+  "n_iface_range": "22 to 27",
+  "buried_range": "772 to 1031",
+  "conv_in_iface_counts": [
+   3
+  ],
+  "share_range": "18.9 to 25.2",
+  "tyr_bond_range": "2.66 to 3.19",
+  "tyr_bonds": 8,
+  "projection": {
+   "YWHAB": {
+    "identity_to_ref": 100.0,
+    "iface_mapped": 27,
+    "conv_in_iface": [
+     10,
+     17,
+     84
+    ],
+    "residues": [
+     "Q10",
+     "Q17",
+     "Y84"
+    ]
+   },
+   "YWHAQ": {
+    "identity_to_ref": 81.30081300813008,
+    "iface_mapped": 27,
+    "conv_in_iface": [
+     8,
+     15,
+     82
+    ],
+    "residues": [
+     "Q8",
+     "Q15",
+     "Y82"
+    ]
+   },
+   "YWHAG": {
+    "identity_to_ref": 76.42276422764228,
+    "iface_mapped": 27,
+    "conv_in_iface": [
+     6,
+     9,
+     16,
+     85
+    ],
+    "residues": [
+     "Q6",
+     "Q9",
+     "Q16",
+     "Y85"
+    ]
+   },
+   "YWHAH": {
+    "identity_to_ref": 76.01626016260163,
+    "iface_mapped": 26,
+    "conv_in_iface": [
+     6,
+     9,
+     16,
+     85
+    ],
+    "residues": [
+     "Q6",
+     "Q9",
+     "Q16",
+     "Y85"
+    ]
+   },
+   "YWHAZ": {
+    "identity_to_ref": 86.99186991869918,
+    "iface_mapped": 27,
+    "conv_in_iface": [
+     8,
+     15,
+     82
+    ],
+    "residues": [
+     "Q8",
+     "Q15",
+     "Y82"
+    ]
+   },
+   "SFN": {
+    "identity_to_ref": 67.07317073170732,
+    "iface_mapped": 27,
+    "conv_in_iface": [
+     8,
+     15,
+     55,
+     84
+    ],
+    "residues": [
+     "Q8",
+     "Q15",
+     "Q55",
+     "Y84"
+    ]
+   },
+   "YWHAE": {
+    "identity_to_ref": 66.26016260162602,
+    "iface_mapped": 26,
+    "conv_in_iface": [
+     9,
+     10,
+     16,
+     85
+    ],
+    "residues": [
+     "Y9",
+     "Q10",
+     "Q16",
+     "Y85"
+    ]
+   }
+  },
+  "cross_checks": {
+   "2BQ0": {
+    "gene": "YWHAB",
+    "own": [
+     10,
+     17,
+     84
+    ],
+    "projected": [
+     10,
+     17,
+     84
+    ],
+    "agree": true
+   },
+   "8EQ8": {
+    "gene": "YWHAB",
+    "own": [
+     10,
+     17,
+     84
+    ],
+    "projected": [
+     10,
+     17,
+     84
+    ],
+    "agree": true
+   },
+   "5IQP": {
+    "gene": "YWHAQ",
+    "own": [
+     8,
+     15,
+     82
+    ],
+    "projected": [
+     8,
+     15,
+     82
+    ],
+    "agree": true
+   },
+   "6F08": {
+    "gene": "YWHAZ",
+    "own": [
+     8,
+     15,
+     82
+    ],
+    "projected": [
+     8,
+     15,
+     82
+    ],
+    "agree": true
+   }
+  },
+  "all_agree": true,
+  "lead_iface": {
+   "pdb": "5IQP",
+   "gene": "YWHAQ",
+   "resolution": 2.602,
+   "first": 1,
+   "last": 230,
+   "observed": 230,
+   "helix_pct": 81.73913043478261,
+   "beta_pct": 0.0,
+   "buried": 969.8695574104786,
+   "n_iface": 27,
+   "conv_in_iface": [
+    8,
+    15,
+    82
+   ],
+   "area_on_conv": 239.7089958190918,
+   "share_pct": 24.715591286224853,
+   "polar": {
+    "8": [
+     {
+      "atom": "NE2",
+      "partner": "LYS75",
+      "partner_atom": "O",
+      "distance": 2.64
+     }
+    ],
+    "15": [],
+    "82": [
+     {
+      "atom": "OH",
+      "partner": "ARG18",
+      "partner_atom": "NE",
+      "distance": 2.94
+     },
+     {
+      "atom": "OH",
+      "partner": "ASP21",
+      "partner_atom": "OD2",
+      "distance": 2.96
+     }
+    ]
+   }
+  },
+  "per_paralogue": [
+   {
+    "gene": "YWHAQ",
+    "conv_n": 30,
+    "in_iface": 3,
+    "residues": [
+     "Q8",
+     "Q15",
+     "Y82"
+    ],
+    "identity": 81.30081300813008
+   },
+   {
+    "gene": "YWHAB",
+    "conv_n": 29,
+    "in_iface": 3,
+    "residues": [
+     "Q10",
+     "Q17",
+     "Y84"
+    ],
+    "identity": 100.0
+   },
+   {
+    "gene": "YWHAG",
+    "conv_n": 29,
+    "in_iface": 4,
+    "residues": [
+     "Q6",
+     "Q9",
+     "Q16",
+     "Y85"
+    ],
+    "identity": 76.42276422764228
+   },
+   {
+    "gene": "YWHAH",
+    "conv_n": 27,
+    "in_iface": 4,
+    "residues": [
+     "Q6",
+     "Q9",
+     "Q16",
+     "Y85"
+    ],
+    "identity": 76.01626016260163
+   },
+   {
+    "gene": "YWHAZ",
+    "conv_n": 27,
+    "in_iface": 3,
+    "residues": [
+     "Q8",
+     "Q15",
+     "Y82"
+    ],
+    "identity": 86.99186991869918
+   },
+   {
+    "gene": "SFN",
+    "conv_n": 24,
+    "in_iface": 4,
+    "residues": [
+     "Q8",
+     "Q15",
+     "Q55",
+     "Y84"
+    ],
+    "identity": 67.07317073170732
+   },
+   {
+    "gene": "YWHAE",
+    "conv_n": 22,
+    "in_iface": 4,
+    "residues": [
+     "Y9",
+     "Q10",
+     "Q16",
+     "Y85"
+    ],
+    "identity": 66.26016260162602
+   }
+  ],
+  "in_iface_counts": [
+   3,
+   4
+  ]
+ },
+ "build": {
+  "spec": {
+   "pdb_id": "5IQP",
+   "paralogue": "YWHAQ",
+   "accession": "P27348",
+   "helix_source": "uniprot",
+   "source_note": "every Q, T and Y inside an annotated helix of P27348, 13 helices",
+   "disulfides": 0,
+   "contact_cutoff": 5.0
+  },
+  "raw": {
+   "pdb_id": "5IQP",
+   "paralogue": "YWHAQ",
+   "accession": "P27348",
+   "helix_source": "uniprot",
+   "source_note": "every Q, T and Y inside an annotated helix of P27348, 13 helices",
+   "chains": [
+    "A",
+    "B"
+   ],
+   "positions": [
+    4,
+    8,
+    15,
+    19,
+    24,
+    30,
+    48,
+    67,
+    77,
+    82,
+    95,
+    96,
+    104,
+    118,
+    125,
+    128,
+    140,
+    141,
+    146,
+    149,
+    150,
+    178,
+    179,
+    190,
+    194,
+    205,
+    211,
+    215,
+    219,
+    226
+   ],
+   "expect": {
+    "4": "THR",
+    "8": "GLN",
+    "15": "GLN",
+    "19": "TYR",
+    "24": "THR",
+    "30": "THR",
+    "48": "TYR",
+    "67": "GLN",
+    "77": "GLN",
+    "82": "TYR",
+    "95": "THR",
+    "96": "THR",
+    "104": "TYR",
+    "118": "TYR",
+    "125": "TYR",
+    "128": "TYR",
+    "140": "GLN",
+    "141": "THR",
+    "146": "GLN",
+    "149": "TYR",
+    "150": "GLN",
+    "178": "TYR",
+    "179": "TYR",
+    "190": "THR",
+    "194": "THR",
+    "205": "THR",
+    "211": "TYR",
+    "215": "THR",
+    "219": "GLN",
+    "226": "THR"
+   },
+   "converted_to": {
+    "4": "VAL",
+    "8": "LEU",
+    "15": "LEU",
+    "19": "PHE",
+    "24": "VAL",
+    "30": "VAL",
+    "48": "PHE",
+    "67": "LEU",
+    "77": "LEU",
+    "82": "PHE",
+    "95": "VAL",
+    "96": "VAL",
+    "104": "PHE",
+    "118": "PHE",
+    "125": "PHE",
+    "128": "PHE",
+    "140": "LEU",
+    "141": "VAL",
+    "146": "LEU",
+    "149": "PHE",
+    "150": "LEU",
+    "178": "PHE",
+    "179": "PHE",
+    "190": "VAL",
+    "194": "VAL",
+    "205": "VAL",
+    "211": "PHE",
+    "215": "VAL",
+    "219": "LEU",
+    "226": "VAL"
+   },
+   "modelled_gaps": [
+    {
+     "chain": "B",
+     "first": 72,
+     "last": 72,
+     "residues": 1,
+     "clearance_A": 7.35
+    }
+   ],
+   "disulfides": 0,
+   "contact_cutoff": 5.0,
+   "interface": [
+    "A MET1",
+    "A GLU5",
+    "A GLN8",
+    "A LYS9",
+    "A LEU12",
+    "A ALA13",
+    "A GLN15",
+    "A ALA16",
+    "A ARG18",
+    "A ASP21",
+    "A ARG55",
+    "A SER57",
+    "A ALA58",
+    "A VAL61",
+    "A ILE62",
+    "A ILE65",
+    "A LYS74",
+    "A LYS75",
+    "A LEU76",
+    "A LEU78",
+    "A ILE79",
+    "A TYR82",
+    "A LYS85",
+    "A VAL86",
+    "A GLU89",
+    "B MET1",
+    "B GLU5",
+    "B GLN8",
+    "B LYS9",
+    "B LEU12",
+    "B ALA13",
+    "B GLN15",
+    "B ALA16",
+    "B ARG18",
+    "B ASP21",
+    "B ARG55",
+    "B ALA58",
+    "B VAL61",
+    "B ILE62",
+    "B ILE65",
+    "B LYS74",
+    "B LYS75",
+    "B LEU76",
+    "B LEU78",
+    "B ILE79",
+    "B TYR82",
+    "B LYS85",
+    "B VAL86",
+    "B GLU89"
+   ],
+   "converted_in_interface": [
+    8,
+    15,
+    82
+   ],
+   "partial_sidechains": [
+    "A THR69 (8.8 A)",
+    "A ASP70 (10.5 A)",
+    "A THR71 (9.4 A)",
+    "A LYS74 (4.2 A)",
+    "A ASP136 (24.3 A)",
+    "B GLU2 (7.6 A)",
+    "B GLN67 (9.7 A)",
+    "B LYS68 (11.2 A)",
+    "B THR69 (8.1 A)",
+    "B ASP70 (10.1 A)",
+    "B THR71 (9.6 A)",
+    "B ASP73 (7.4 A)",
+    "B LYS74 (4.1 A)",
+    "B LYS75 (2.6 A)",
+    "B ASP136 (24.1 A)"
+   ],
+   "modelled_converted": [
+    "B GLN67"
+   ],
+   "atoms": {
+    "native": 3625,
+    "converted": 3514
+   },
+   "builds": [
+    "native",
+    "converted"
+   ]
+  }
+ },
+ "md": {
+  "verdict": "HOLDS",
+  "ns": {
+   "native": 100.0,
+   "converted": 100.0
+  },
+  "frames": {
+   "native": 2001,
+   "converted": 2001
+  },
+  "thresholds": {
+   "hold": 0.5,
+   "stop": 0.25,
+   "separated_A": 5.0,
+   "tail_fraction": 0.1,
+   "burn_fraction": 0.19990004997501248,
+   "min_ns_for_hold": 100.0
+  },
+  "burn_ns": 19.99000499750125,
+  "buried": {
+   "native": 1074.224047470331,
+   "converted": 1076.258088694566,
+   "fraction": 1.0018934981292076,
+   "native_tail": 1087.93875,
+   "converted_tail": 1080.7868750000002,
+   "fraction_tail": 0.9934262154004536
+  },
+  "contacts": {
+   "native": 2668.1855090568397,
+   "converted": 2707.564022485946,
+   "fraction": 1.0147585365768013,
+   "native_tail": 2744.23125,
+   "converted_tail": 2661.225,
+   "fraction_tail": 0.9697524579971167
+  },
+  "mindist_tail": 1.6243033437500003,
+  "per_position": {
+   "15_sub1": {
+    "native_A": 2.494478368519675,
+    "converted_A": 2.3172122367270456,
+    "change_A": -0.17726613179262962
+   },
+   "15_sub2": {
+    "native_A": 2.4580003572767017,
+    "converted_A": 2.3607695109306683,
+    "change_A": -0.0972308463460334
+   },
+   "82_sub1": {
+    "native_A": 1.8129539725171768,
+    "converted_A": 2.215734578388507,
+    "change_A": 0.40278060587133035
+   },
+   "82_sub2": {
+    "native_A": 1.8126296271080573,
+    "converted_A": 2.1885848750780763,
+    "change_A": 0.375955247970019
+   },
+   "8_sub1": {
+    "native_A": 2.2810000961898815,
+    "converted_A": 2.209107276077452,
+    "change_A": -0.07189282011242959
+   },
+   "8_sub2": {
+    "native_A": 2.35490732792005,
+    "converted_A": 2.2155294809494066,
+    "change_A": -0.13937784697064348
+   }
+  },
+  "rmsd": {
+   "native": {
+    "mean": 5.041212370393504,
+    "sd": 0.7180827894613079,
+    "p10": 4.093681,
+    "p90": 5.967175999999999,
+    "first": 5.721368,
+    "last": 5.255427
+   },
+   "converted": {
+    "mean": 6.089861086820736,
+    "sd": 1.4431776833991323,
+    "p10": 4.418288,
+    "p90": 8.21506,
+    "first": 4.005162,
+    "last": 7.210746
+   }
+  },
+  "polar": {
+   "A8NE2 to LYS75 O": {
+    "mean": 7.867451592754529,
+    "sd": 1.3587671696884402,
+    "occupancy_3_5": 0.0
+   },
+   "B8NE2 to LYS75 O": {
+    "mean": 7.530237351655216,
+    "sd": 1.5293392836372786,
+    "occupancy_3_5": 0.006870705808869456
+   },
+   "A82OH to ARG18 NE": {
+    "mean": 3.47261086820737,
+    "sd": 0.2516470250490719,
+    "occupancy_3_5": 0.5765146783260462
+   },
+   "B82OH to ARG18 NE": {
+    "mean": 3.454003747657714,
+    "sd": 0.25050035622360634,
+    "occupancy_3_5": 0.6058713304184884
+   },
+   "A82OH to ASP21 OD2": {
+    "mean": 2.732804497189256,
+    "sd": 0.1491585974735029,
+    "occupancy_3_5": 0.9975015615240475
+   },
+   "B82OH to ASP21 OD2": {
+    "mean": 2.73103685196752,
+    "sd": 0.15613595915897985,
+    "occupancy_3_5": 0.9962523422860712
+   }
+  },
+  "atoms": {
+   "native": 132375,
+   "converted": 132573
+  },
+  "written": "2026-11-16T04:55:26",
+  "position_82_change": [
+   0.40278060587133035,
+   0.375955247970019
+  ],
+  "position_8_15_change": [
+   -0.07189282011242959,
+   -0.13937784697064348,
+   -0.17726613179262962,
+   -0.0972308463460334
+  ],
+  "asp21_occupancy": [
+   0.9975015615240475,
+   0.9962523422860712
+  ],
+  "arg18_occupancy": [
+   0.5765146783260462,
+   0.6058713304184884
+  ],
+  "lys75_occupancy": [
+   0.0,
+   0.006870705808869456
+  ],
+  "lys75_distance": [
+   7.867451592754529,
+   7.530237351655216
+  ],
+  "lys75_crystal_A": [
+   2.64
+  ]
+ },
+ "conservation": {
+  "depth_per_position": 7.6690160398760945,
+  "effective_depth": 1878.9089297696432,
+  "sequences_scored": 14090,
+  "sequences_returned": 21696,
+  "release": "2026_04",
+  "pfam": "(xref:pfam-PF00244)",
+  "reweight": 0.8,
+  "mean_all": 0.258349506122449,
+  "modelled": 230,
+  "mean_converted": 0.2786477333333333,
+  "mean_rest": 0.26865146,
+  "n_converted": 30,
+  "n_rest": 200,
+  "difference": 0.009996273333333305,
+  "permutations": 20000,
+  "p": 0.7136143192840358,
+  "groove": {
+   "49": {
+    "residue": "K",
+    "conservation": 0.441533,
+    "rank": 26
+   },
+   "56": {
+    "residue": "R",
+    "conservation": 0.489676,
+    "rank": 16
+   },
+   "127": {
+    "residue": "R",
+    "conservation": 0.484089,
+    "rank": 17
+   },
+   "128": {
+    "residue": "Y",
+    "conservation": 0.596685,
+    "rank": 4
+   }
+  },
+  "interface_conversions": {
+   "8": {
+    "residue": "Q",
+    "conservation": 0.235228,
+    "rank": 130
+   },
+   "15": {
+    "residue": "Q",
+    "conservation": 0.338769,
+    "rank": 70
+   },
+   "82": {
+    "residue": "Y",
+    "conservation": 0.409855,
+    "rank": 37
+   }
+  },
+  "ranked_of": 230
+ },
+ "dcs": {
+  "available": true,
+  "positions": 230,
+  "n_converted": 30,
+  "n_rest": 200,
+  "permutations": 20000,
+  "scores": {
+   "conservation": {
+    "converted": 0.2786477333333333,
+    "rest": 0.26865146,
+    "difference": 0.009996273333333305,
+    "p": 0.7136143192840358
+   },
+   "dcs_native_0_10": {
+    "converted": 1.2249783333333333,
+    "rest": 1.32276175,
+    "difference": -0.09778341666666668,
+    "p": 0.6845157742112894
+   },
+   "dcs_converted_0_10": {
+    "converted": 1.3315183333333334,
+    "rest": 1.42881175,
+    "difference": -0.09729341666666658,
+    "p": 0.752162391880406
+   },
+   "rcs_native_0_10": {
+    "converted": 3.6558133333333336,
+    "rest": 3.43736275,
+    "difference": 0.21845058333333345,
+    "p": 0.5816709164541773
+   },
+   "rcs_converted_0_10": {
+    "converted": 3.4392116666666666,
+    "rest": 3.19958,
+    "difference": 0.23963166666666647,
+    "p": 0.560121993900305
+   },
+   "norm_dynamics_native": {
+    "converted": 0.19103666666666666,
+    "rest": 0.2040805,
+    "difference": -0.013043833333333338,
+    "p": 0.6860656967151643
+   },
+   "norm_dynamics_converted": {
+    "converted": 0.260855,
+    "rest": 0.26470375,
+    "difference": -0.003848750000000012,
+    "p": 0.9369531523423829
+   }
+  },
+  "interface": {
+   "8": {
+    "conservation": 0.235228,
+    "dcs_native_0_10": 0.7235,
+    "dcs_converted_0_10": 0.6344,
+    "rcs_native_0_10": 3.27745,
+    "rcs_converted_0_10": 3.2957,
+    "norm_dynamics_native": 0.1197,
+    "norm_dynamics_converted": 0.13365
+   },
+   "15": {
+    "conservation": 0.338769,
+    "dcs_native_0_10": 1.1338,
+    "dcs_converted_0_10": 0.95435,
+    "rcs_native_0_10": 4.66355,
+    "rcs_converted_0_10": 4.7138,
+    "norm_dynamics_native": 0.13025,
+    "norm_dynamics_converted": 0.1396
+   },
+   "82": {
+    "conservation": 0.409855,
+    "dcs_native_0_10": 1.1353499999999999,
+    "dcs_converted_0_10": 0.9552499999999999,
+    "rcs_native_0_10": 5.7877,
+    "rcs_converted_0_10": 5.86265,
+    "norm_dynamics_native": 0.1078,
+    "norm_dynamics_converted": 0.1155
+   }
+  },
+  "converted_positions": [
+   {
+    "position": 4,
+    "resname_native": "THR",
+    "resname_converted": "VAL",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.174268,
+    "dcs_native_0_10": 0.79505,
+    "dcs_converted_0_10": 0.6615,
+    "rcs_native_0_10": 2.2685,
+    "rcs_converted_0_10": 2.2882,
+    "norm_dynamics_native": 0.17754999999999999,
+    "norm_dynamics_converted": 0.1881
+   },
+   {
+    "position": 8,
+    "resname_native": "GLN",
+    "resname_converted": "LEU",
+    "interface": true,
+    "chains": 2,
+    "conservation": 0.235228,
+    "dcs_native_0_10": 0.7235,
+    "dcs_converted_0_10": 0.6344,
+    "rcs_native_0_10": 3.27745,
+    "rcs_converted_0_10": 3.2957,
+    "norm_dynamics_native": 0.1197,
+    "norm_dynamics_converted": 0.13365
+   },
+   {
+    "position": 15,
+    "resname_native": "GLN",
+    "resname_converted": "LEU",
+    "interface": true,
+    "chains": 2,
+    "conservation": 0.338769,
+    "dcs_native_0_10": 1.1338,
+    "dcs_converted_0_10": 0.95435,
+    "rcs_native_0_10": 4.66355,
+    "rcs_converted_0_10": 4.7138,
+    "norm_dynamics_native": 0.13025,
+    "norm_dynamics_converted": 0.1396
+   },
+   {
+    "position": 19,
+    "resname_native": "TYR",
+    "resname_converted": "PHE",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.462478,
+    "dcs_native_0_10": 0.9394,
+    "dcs_converted_0_10": 0.76155,
+    "rcs_native_0_10": 6.7413,
+    "rcs_converted_0_10": 6.86895,
+    "norm_dynamics_native": 0.07905000000000001,
+    "norm_dynamics_converted": 0.0816
+   },
+   {
+    "position": 24,
+    "resname_native": "THR",
+    "resname_converted": "VAL",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.104249,
+    "dcs_native_0_10": 0.20884999999999998,
+    "dcs_converted_0_10": 0.13505,
+    "rcs_native_0_10": 1.5214,
+    "rcs_converted_0_10": 1.5777,
+    "norm_dynamics_native": 0.07794999999999999,
+    "norm_dynamics_converted": 0.06420000000000001
+   },
+   {
+    "position": 30,
+    "resname_native": "THR",
+    "resname_converted": "VAL",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.177349,
+    "dcs_native_0_10": 0.3557,
+    "dcs_converted_0_10": 0.24445,
+    "rcs_native_0_10": 2.58795,
+    "rcs_converted_0_10": 2.6722,
+    "norm_dynamics_native": 0.07805,
+    "norm_dynamics_converted": 0.0683
+   },
+   {
+    "position": 48,
+    "resname_native": "TYR",
+    "resname_converted": "PHE",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.510181,
+    "dcs_native_0_10": 0.8148000000000001,
+    "dcs_converted_0_10": 0.5894,
+    "rcs_native_0_10": 7.5731,
+    "rcs_converted_0_10": 7.77835,
+    "norm_dynamics_native": 0.06215,
+    "norm_dynamics_converted": 0.05725
+   },
+   {
+    "position": 67,
+    "resname_native": "GLN",
+    "resname_converted": "LEU",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.212243,
+    "dcs_native_0_10": 1.40875,
+    "dcs_converted_0_10": 1.16175,
+    "rcs_native_0_10": 2.4916,
+    "rcs_converted_0_10": 2.5014000000000003,
+    "norm_dynamics_native": 0.2583,
+    "norm_dynamics_converted": 0.27125
+   },
+   {
+    "position": 77,
+    "resname_native": "GLN",
+    "resname_converted": "LEU",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.073479,
+    "dcs_native_0_10": 0.36719999999999997,
+    "dcs_converted_0_10": 0.32589999999999997,
+    "rcs_native_0_10": 0.9368000000000001,
+    "rcs_converted_0_10": 0.9271,
+    "norm_dynamics_native": 0.1945,
+    "norm_dynamics_converted": 0.2198
+   },
+   {
+    "position": 82,
+    "resname_native": "TYR",
+    "resname_converted": "PHE",
+    "interface": true,
+    "chains": 2,
+    "conservation": 0.409855,
+    "dcs_native_0_10": 1.1353499999999999,
+    "dcs_converted_0_10": 0.9552499999999999,
+    "rcs_native_0_10": 5.7877,
+    "rcs_converted_0_10": 5.86265,
+    "norm_dynamics_native": 0.1078,
+    "norm_dynamics_converted": 0.1155
+   },
+   {
+    "position": 95,
+    "resname_native": "THR",
+    "resname_converted": "VAL",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.092294,
+    "dcs_native_0_10": 0.15639999999999998,
+    "dcs_converted_0_10": 0.1381,
+    "rcs_native_0_10": 1.36445,
+    "rcs_converted_0_10": 1.3819,
+    "norm_dynamics_native": 0.06595000000000001,
+    "norm_dynamics_converted": 0.07415
+   },
+   {
+    "position": 96,
+    "resname_native": "THR",
+    "resname_converted": "VAL",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.203192,
+    "dcs_native_0_10": 0.42605,
+    "dcs_converted_0_10": 0.3075,
+    "rcs_native_0_10": 2.9536499999999997,
+    "rcs_converted_0_10": 3.0396,
+    "norm_dynamics_native": 0.0816,
+    "norm_dynamics_converted": 0.075
+   },
+   {
+    "position": 104,
+    "resname_native": "TYR",
+    "resname_converted": "PHE",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.178011,
+    "dcs_native_0_10": 0.48445000000000005,
+    "dcs_converted_0_10": 0.27749999999999997,
+    "rcs_native_0_10": 2.51915,
+    "rcs_converted_0_10": 2.6564,
+    "norm_dynamics_native": 0.1059,
+    "norm_dynamics_converted": 0.07725
+   },
+   {
+    "position": 118,
+    "resname_native": "TYR",
+    "resname_converted": "PHE",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.478559,
+    "dcs_native_0_10": 0.4316,
+    "dcs_converted_0_10": 0.09895000000000001,
+    "rcs_native_0_10": 7.3086,
+    "rcs_converted_0_10": 7.65995,
+    "norm_dynamics_native": 0.0351,
+    "norm_dynamics_converted": 0.010249999999999999
+   },
+   {
+    "position": 125,
+    "resname_native": "TYR",
+    "resname_converted": "PHE",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.525827,
+    "dcs_native_0_10": 0.4209,
+    "dcs_converted_0_10": 0.3618,
+    "rcs_native_0_10": 8.06335,
+    "rcs_converted_0_10": 8.213750000000001,
+    "norm_dynamics_native": 0.03115,
+    "norm_dynamics_converted": 0.034100000000000005
+   },
+   {
+    "position": 128,
+    "resname_native": "TYR",
+    "resname_converted": "PHE",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.596685,
+    "dcs_native_0_10": 1.0794000000000001,
+    "dcs_converted_0_10": 0.81335,
+    "rcs_native_0_10": 8.779250000000001,
+    "rcs_converted_0_10": 8.9978,
+    "norm_dynamics_native": 0.0704,
+    "norm_dynamics_converted": 0.06755
+   },
+   {
+    "position": 140,
+    "resname_native": "GLN",
+    "resname_converted": "LEU",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.100415,
+    "dcs_native_0_10": 0.41115,
+    "dcs_converted_0_10": 0.28775,
+    "rcs_native_0_10": 1.33605,
+    "rcs_converted_0_10": 1.3933,
+    "norm_dynamics_native": 0.15935,
+    "norm_dynamics_converted": 0.14200000000000002
+   },
+   {
+    "position": 141,
+    "resname_native": "THR",
+    "resname_converted": "VAL",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.112884,
+    "dcs_native_0_10": 0.2879,
+    "dcs_converted_0_10": 0.18209999999999998,
+    "rcs_native_0_10": 1.60935,
+    "rcs_converted_0_10": 1.67965,
+    "norm_dynamics_native": 0.09925,
+    "norm_dynamics_converted": 0.07995
+   },
+   {
+    "position": 146,
+    "resname_native": "GLN",
+    "resname_converted": "LEU",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.123275,
+    "dcs_native_0_10": 0.20525,
+    "dcs_converted_0_10": 0.19069999999999998,
+    "rcs_native_0_10": 1.8247,
+    "rcs_converted_0_10": 1.8408,
+    "norm_dynamics_native": 0.0648,
+    "norm_dynamics_converted": 0.07665
+   },
+   {
+    "position": 149,
+    "resname_native": "TYR",
+    "resname_converted": "PHE",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.597801,
+    "dcs_native_0_10": 0.54375,
+    "dcs_converted_0_10": 0.8848499999999999,
+    "rcs_native_0_10": 9.1268,
+    "rcs_converted_0_10": 8.958549999999999,
+    "norm_dynamics_native": 0.0354,
+    "norm_dynamics_converted": 0.07335
+   },
+   {
+    "position": 150,
+    "resname_native": "GLN",
+    "resname_converted": "LEU",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.183808,
+    "dcs_native_0_10": 0.37124999999999997,
+    "dcs_converted_0_10": 0.48775,
+    "rcs_native_0_10": 2.6806,
+    "rcs_converted_0_10": 2.58165,
+    "norm_dynamics_native": 0.0786,
+    "norm_dynamics_converted": 0.1315
+   },
+   {
+    "position": 178,
+    "resname_native": "TYR",
+    "resname_converted": "PHE",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.370999,
+    "dcs_native_0_10": 1.50295,
+    "dcs_converted_0_10": 2.0094,
+    "rcs_native_0_10": 4.9463,
+    "rcs_converted_0_10": 4.3895,
+    "norm_dynamics_native": 0.15765,
+    "norm_dynamics_converted": 0.26839999999999997
+   },
+   {
+    "position": 179,
+    "resname_native": "TYR",
+    "resname_converted": "PHE",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.458312,
+    "dcs_native_0_10": 2.69575,
+    "dcs_converted_0_10": 3.4478,
+    "rcs_native_0_10": 5.5936,
+    "rcs_converted_0_10": 4.64875,
+    "norm_dynamics_native": 0.2289,
+    "norm_dynamics_converted": 0.3728
+   },
+   {
+    "position": 190,
+    "resname_native": "THR",
+    "resname_converted": "VAL",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.095642,
+    "dcs_native_0_10": 0.7460500000000001,
+    "dcs_converted_0_10": 0.9922,
+    "rcs_native_0_10": 1.0543,
+    "rcs_converted_0_10": 0.7515499999999999,
+    "norm_dynamics_native": 0.30355,
+    "norm_dynamics_converted": 0.5141
+   },
+   {
+    "position": 194,
+    "resname_native": "THR",
+    "resname_converted": "VAL",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.153149,
+    "dcs_native_0_10": 1.2605,
+    "dcs_converted_0_10": 1.7135,
+    "rcs_native_0_10": 1.6476000000000002,
+    "rcs_converted_0_10": 1.1035,
+    "norm_dynamics_native": 0.32030000000000003,
+    "norm_dynamics_converted": 0.55445
+   },
+   {
+    "position": 205,
+    "resname_native": "THR",
+    "resname_converted": "VAL",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.116483,
+    "dcs_native_0_10": 2.0273000000000003,
+    "dcs_converted_0_10": 2.24725,
+    "rcs_native_0_10": 0.59495,
+    "rcs_converted_0_10": 0.08274999999999999,
+    "norm_dynamics_native": 0.6773,
+    "norm_dynamics_converted": 0.9560500000000001
+   },
+   {
+    "position": 211,
+    "resname_native": "TYR",
+    "resname_converted": "PHE",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.386207,
+    "dcs_native_0_10": 5.1511,
+    "dcs_converted_0_10": 5.84155,
+    "rcs_native_0_10": 2.93995,
+    "rcs_converted_0_10": 1.56425,
+    "norm_dynamics_native": 0.51905,
+    "norm_dynamics_converted": 0.7495499999999999
+   },
+   {
+    "position": 215,
+    "resname_native": "THR",
+    "resname_converted": "VAL",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.24941,
+    "dcs_native_0_10": 2.909,
+    "dcs_converted_0_10": 3.5799000000000003,
+    "rcs_native_0_10": 2.1558,
+    "rcs_converted_0_10": 1.16445,
+    "norm_dynamics_native": 0.45389999999999997,
+    "norm_dynamics_converted": 0.7113
+   },
+   {
+    "position": 219,
+    "resname_native": "GLN",
+    "resname_converted": "LEU",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.404405,
+    "dcs_native_0_10": 4.74225,
+    "dcs_converted_0_10": 5.9152000000000005,
+    "rcs_native_0_10": 3.47975,
+    "rcs_converted_0_10": 1.7995,
+    "norm_dynamics_native": 0.45635,
+    "norm_dynamics_converted": 0.72485
+   },
+   {
+    "position": 226,
+    "resname_native": "THR",
+    "resname_converted": "VAL",
+    "interface": false,
+    "chains": 2,
+    "conservation": 0.233975,
+    "dcs_native_0_10": 3.01395,
+    "dcs_converted_0_10": 3.7447999999999997,
+    "rcs_native_0_10": 1.8468499999999999,
+    "rcs_converted_0_10": 0.7827,
+    "norm_dynamics_native": 0.5013000000000001,
+    "norm_dynamics_converted": 0.79315
+   }
+  ],
+  "table_rows": 459
+ },
+ "rmsf": {
+  "available": true,
+  "selection": "C-alpha",
+  "residues": 459,
+  "mean": {
+   "native": 1.2867145969498912,
+   "converted": 1.7925403050108935
+  },
+  "by_class": {
+   "terminal": {
+    "native": {
+     "n": 40,
+     "mean": 1.819925
+    },
+    "converted": {
+     "n": 40,
+     "mean": 2.5609499999999996
+    }
+   },
+   "interface": {
+    "native": {
+     "n": 54,
+     "mean": 1.1349814814814814
+    },
+    "converted": {
+     "n": 54,
+     "mean": 1.3740740740740742
+    }
+   },
+   "converted": {
+    "native": {
+     "n": 60,
+     "mean": 1.248866666666667
+    },
+    "converted": {
+     "n": 60,
+     "mean": 1.781583333333333
+    }
+   },
+   "body": {
+    "native": {
+     "n": 323,
+     "mean": 1.2647089783281735
+    },
+    "converted": {
+     "n": 323,
+     "mean": 1.7714798761609911
+    }
+   }
+  },
+  "largest": [
+   {
+    "chain": "B",
+    "residue": 226,
+    "native_A": 2.048,
+    "converted_A": 3.981,
+    "change_A": 1.9329999999999998,
+    "converted_position": true,
+    "interface": false
+   },
+   {
+    "chain": "B",
+    "residue": 223,
+    "native_A": 1.916,
+    "converted_A": 3.792,
+    "change_A": 1.876,
+    "converted_position": false,
+    "interface": false
+   },
+   {
+    "chain": "B",
+    "residue": 201,
+    "native_A": 2.335,
+    "converted_A": 4.187,
+    "change_A": 1.8520000000000003,
+    "converted_position": false,
+    "interface": false
+   },
+   {
+    "chain": "B",
+    "residue": 227,
+    "native_A": 1.9700000000000002,
+    "converted_A": 3.7780000000000005,
+    "change_A": 1.8080000000000003,
+    "converted_position": false,
+    "interface": false
+   },
+   {
+    "chain": "B",
+    "residue": 219,
+    "native_A": 1.9420000000000002,
+    "converted_A": 3.7430000000000003,
+    "change_A": 1.8010000000000002,
+    "converted_position": true,
+    "interface": false
+   },
+   {
+    "chain": "B",
+    "residue": 222,
+    "native_A": 1.845,
+    "converted_A": 3.6390000000000002,
+    "change_A": 1.7940000000000003,
+    "converted_position": false,
+    "interface": false
+   },
+   {
+    "chain": "B",
+    "residue": 200,
+    "native_A": 2.0549999999999997,
+    "converted_A": 3.8419999999999996,
+    "change_A": 1.787,
+    "converted_position": false,
+    "interface": false
+   },
+   {
+    "chain": "B",
+    "residue": 204,
+    "native_A": 2.803,
+    "converted_A": 4.575,
+    "change_A": 1.7720000000000002,
+    "converted_position": false,
+    "interface": false
+   },
+   {
+    "chain": "B",
+    "residue": 205,
+    "native_A": 2.747,
+    "converted_A": 4.5,
+    "change_A": 1.7530000000000001,
+    "converted_position": true,
+    "interface": false
+   },
+   {
+    "chain": "B",
+    "residue": 215,
+    "native_A": 1.953,
+    "converted_A": 3.6919999999999997,
+    "change_A": 1.7389999999999997,
+    "converted_position": true,
+    "interface": false
+   },
+   {
+    "chain": "B",
+    "residue": 197,
+    "native_A": 1.8659999999999999,
+    "converted_A": 3.567,
+    "change_A": 1.7010000000000003,
+    "converted_position": false,
+    "interface": false
+   },
+   {
+    "chain": "B",
+    "residue": 203,
+    "native_A": 2.226,
+    "converted_A": 3.9240000000000004,
+    "change_A": 1.6980000000000004,
+    "converted_position": false,
+    "interface": false
+   }
+  ],
+  "measured_with": "packaged gromacs from apt",
+  "units": "angstrom. gmx writes the xvg in nm and it is converted on the way in; the xvg files kept beside each run are gmx output, unconverted"
+ },
+ "generated_by": "code/collect_values.py"
+}

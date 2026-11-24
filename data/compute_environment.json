@@ -1,0 +1,16 @@
+{
+  "built_from_source": true,
+  "cuda_major": "12",
+  "gpu": "NVIDIA A100",
+  "gpu_backend": "CUDA",
+  "gromacs_source": "ftp.gromacs.org",
+  "gromacs_version": "2026.3",
+  "notebooks": [
+    "1433_rQTY_MD_2_converted.ipynb",
+    "1433_rQTY_MD_2_native.ipynb"
+  ],
+  "ns_per_build": 100,
+  "own_fftw": false,
+  "precision": "single",
+  "simd": "AVX2_256"
+}
